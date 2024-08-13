@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>LLTO - Lorcana Lore Tracker For OBS</title>
+		<link rel="stylesheet" href="src/css/tracker.css">
+		<!-- <link rel="icon" href="./favicon.ico" type="image/x-icon"> -->
+	</head>
+	<body class="landscape">
+                
+        <div id="tracker-container">
+            
+            <div id="container-p1" class="player-container">
+
+                <input type="text" id="player-1-name" class="label-joueur" value="Joueur 1 (Cliquer pour modifier)">
+
+                <div class="tracker">
+                    <button class="tracker-btn" onclick="updateTrackerVal('less', 1);">-</button>
+                    <div id="tracker-p1-val" class="tracker-val">0</div>
+                    <button class="tracker-btn" onclick="updateTrackerVal('plus', 1);">+</button>
+                </div>
+
+            </div>
+
+            <div class="separator"></div>
+
+            <div id="container-P2" class="player-container">
+
+                <input type="text" id="player-2-name" class="label-joueur" value="Joueur 2 (Cliquer pour modifier)">
+
+                <div class="tracker">
+                    <button class="tracker-btn" onclick="updateTrackerVal('less', 2);">-</button>
+                    <div id="tracker-p2-val" class="tracker-val">0</div>
+                    <button class="tracker-btn" onclick="updateTrackerVal('plus', 2);">+</button>
+                </div>
+
+            </div>
+        </div>
+		<script src="src/js/tracker.js"></script>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+}
+
+
+#tracker-container {
+    width: 100%;
+    height: 100vh;
+
+    margin: auto;;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    background-color: #000000c4;
+    border-radius: 50%;
+}
+
+.label-joueur {
+    background: transparent;
+
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+
+    height: 40px;
+    width: 300px;
+
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.tracker {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.tracker-btn { 
+    background: #00000099;
+    color: #d3be4d;
+
+    border-radius: 50%;
+    border: none;
+
+    height: 40px;
+    width: 40px;
+
+    font-size: 39px;
+    line-height: 30px;
+
+    cursor: pointer;
+
+    vertical-align: middle;
+}
+
+.tracker-val { 
+    display: inline-block;
+
+    font-size: 60px;
+    color: #d3be4d;
+    font-weight: bold;
+    line-height: 40px;
+
+    vertical-align: middle;
+}
+/* LANDSCAPE MODE */
+
+.landscape #tracker-container { 
+    flex-direction: row; 
+    width: 100%;
+    height: 300px;
+}
+
+
+/* PORTRAIT MODE */
