@@ -24,7 +24,9 @@
 
             </div>
 
-            <div class="separator"></div>
+            <div class="game-actions">
+                <button onclick="newGame();">Démarrer une partie</button>
+            </div>
 
             <div id="container-P2" class="player-container">
 
@@ -38,6 +40,17 @@
 
             </div>
         </div>
+
+        <div class="modal" id="modalOBS">
+            <div class="modal-container">
+              <h1>Please copy this url to OBS as Webview</h1>
+              <p>In case you forgot to copy this url, after clicking on "Go", you can copy the url of your web browser, it's the same</p>
+              <input type="text" readonly id="OBSUrl" />
+              <button onclick="reloadWithOBSUrl();" id="">GO</button>
+            </div>
+          </div>
+
+
 		<script src="src/js/tracker.js"></script>
 	</body>
 </html>
