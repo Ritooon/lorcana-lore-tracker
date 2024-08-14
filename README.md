@@ -14,7 +14,15 @@ Pour installer xObsBrowserAutoRefresh :
 - Le décompresser
 
 - Copier les dossiers <code>data</code> et <code>obs-plugins</code> dans le repertoire d'installation d'OBS (exemple : <code>C:\Program Files\obs-studio</code>)
- 
+- Dans Discord, utilisez OBS comme source de webcam
+
+Exemple de setup : 
+![How it looks](https://github.com/Ritooon/lorcana-lore-tracker/blob/main/misc/setup_1.png?raw=true)
+ ![Settings of the web view](https://github.com/Ritooon/lorcana-lore-tracker/blob/main/misc/setup_2.png?raw=true)
+
+![Access filters](https://github.com/Ritooon/lorcana-lore-tracker/blob/main/misc/setup_3.png?raw=true)
+
+![Filter settings](https://github.com/Ritooon/lorcana-lore-tracker/blob/main/misc/setup_4.png?raw=true)
 ## 🇬🇧 Setup
 
 ### Dependencies
@@ -26,3 +34,12 @@ To install xObsBrowserAutoRefresh:
 - Download the corresponding zip file
 - Unzip it
 - Copy the <code>data</code> and <code>obs-plugins</code> folders into the OBS installation directory (e.g., <code>C:\Program Files\obs-studio</code>)
+- In Discord, use OBS as a webcam
+
+Setup example : 
+![How it looks](https://github.com/Ritooon/lorcana-lore-tracker/blob/main/misc/setup_1.png?raw=true)
+ ![Settings of the web view](https://github.com/Ritooon/lorcana-lore-tracker/blob/main/misc/setup_2.png?raw=true)
+
+![Access filters](https://github.com/Ritooon/lorcana-lore-tracker/blob/main/misc/setup_3.png?raw=true)
+
+![Filter settings](https://github.com/Ritooon/lorcana-lore-tracker/blob/main/misc/setup_4.png?raw=true)
