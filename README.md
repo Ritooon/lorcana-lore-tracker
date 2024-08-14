@@ -14,6 +14,7 @@ Pour installer xObsBrowserAutoRefresh :
 - Le décompresser
 
 - Copier les dossiers <code>data</code> et <code>obs-plugins</code> dans le repertoire d'installation d'OBS (exemple : <code>C:\Program Files\obs-studio</code>)
+- Démarrez la caméra virtuelle dans OBS
 - Dans Discord, utilisez OBS comme source de webcam
 
 Exemple de setup : 
@@ -34,6 +35,7 @@ To install xObsBrowserAutoRefresh:
 - Download the corresponding zip file
 - Unzip it
 - Copy the <code>data</code> and <code>obs-plugins</code> folders into the OBS installation directory (e.g., <code>C:\Program Files\obs-studio</code>)
+- Start the virtual camera on OBS
 - In Discord, use OBS as a webcam
 
 Setup example : 
