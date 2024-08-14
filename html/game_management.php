@@ -14,8 +14,8 @@ if(isset($_POST)) {
 
     $action = isset($_POST['action']) ? preg_replace("/[^A-Za-z0-9]/",'', strip_tags($_POST['action'])) : '';
     $token = isset($_POST['token']) ? preg_replace("/[^A-Za-z0-9]/",'', strip_tags($_POST['token'])) : '';
-    $nameP1 = isset($_POST['nameP1']) ? preg_replace("/[^A-Za-z0-9]/",'', strip_tags($_POST['nameP1'])) : '';
-    $nameP2 = isset($_POST['nameP2']) ? preg_replace("/[^A-Za-z0-9]/",'', strip_tags($_POST['nameP2'])) : '';
+    $nameP1 = isset($_POST['nameP1']) ? preg_replace("/[^A-Za-z0-9]/",'', strip_tags($_POST['nameP1'])) : 'Joueur 1 (Cliquer pour modifier)';
+    $nameP2 = isset($_POST['nameP2']) ? preg_replace("/[^A-Za-z0-9]/",'', strip_tags($_POST['nameP2'])) : 'Joueur 2 (Cliquer pour modifier)';
     $loreP1 = isset($_POST['loreP1']) ? (int)preg_replace("/[^0-9]/",'', strip_tags($_POST['loreP1'])) : 0;
     $loreP2 = isset($_POST['loreP2']) ? (int)preg_replace("/[^0-9]/",'', strip_tags($_POST['loreP2'])) : 0;
         
